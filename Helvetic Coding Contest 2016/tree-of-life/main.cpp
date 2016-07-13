@@ -18,3 +18,20 @@
  * Output
  * Print one integer – the number of lifelines in the tree.
  */
+#include <iostream>
+using namespace std;
+
+int main() {
+    int verticies, x, y, ans = 0;
+    int array[100000];
+    cin >> verticies;
+    for(int i = 1; i < verticies; i++) {
+        cin >> x; cin >> y;
+        ans += array[x];
+        ans += array[y];
+        array[x]++;
+        array[y]++;
+    }
+    cout << ans;
+    return 0;
+}
