@@ -1,1 +1,2 @@
-Program('main.cpp')
+Program('easy.cpp')
+Program('medium.cpp')
