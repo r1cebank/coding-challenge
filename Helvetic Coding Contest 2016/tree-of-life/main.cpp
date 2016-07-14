@@ -1,6 +1,6 @@
 /*
  * Helvetic Coding Contest 2016, 690F1
- * Status: not-submitted
+ * Status: submitted
  * F1. Tree of Life (easy)
  * time limit per test2 seconds
  * memory limit per test256 megabytes
